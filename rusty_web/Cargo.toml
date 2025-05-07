@@ -7,3 +7,5 @@ edition = "2024"
 tokio = { version = "1.28", features = ["full"] }
 sqlx = { version = "0.6", features = ["runtime-tokio-rustls", "mysql"] }
 dotenv = "0.15"
+tracing = "0.1.41"
+axum = "0.8.4"
